@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/water-check/static/css/main.1e66a24d.css",
+    "main.js": "/water-check/static/js/main.a6f33bb6.js",
+    "index.html": "/water-check/index.html",
+    "main.1e66a24d.css.map": "/water-check/static/css/main.1e66a24d.css.map",
+    "main.a6f33bb6.js.map": "/water-check/static/js/main.a6f33bb6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1e66a24d.css",
+    "static/js/main.a6f33bb6.js"
+  ]
+}
