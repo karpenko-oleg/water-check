@@ -1,0 +1,26 @@
+
+.swiperReviews{
+    width: 100%;
+    .swiperReviews__item{
+        width: 400px;
+        height: 300px;
+        border: 3px solid #628790;
+        padding: 50px;
+        margin: 10px auto;
+        h4{
+            font-size: 30px;
+            font-weight: 700;
+            color: #628790;
+        }
+        span{
+            background-color: #628790;
+            width: 100px;
+            height: 10px;
+            margin: 20px 0;
+            display: block;
+        }
+        p{
+            line-height: 144%;
+        }
+    }
+}
