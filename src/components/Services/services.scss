@@ -1,0 +1,29 @@
+
+
+.servicesItem{
+    width: 400px;
+    padding: 10px 10px 30px;
+    box-shadow: 0px 0px 10px #597cad;
+    transition: .3s ease-in-out;
+    h2{
+        margin: 20px 0px;
+        font-size: 25px;
+    }
+    button{
+        transition: .3s ease-in-out;
+        a{
+            padding: 10px 15px;
+            background-color: #8e0087;
+            border-radius: 10px;
+            color: #fff;
+            box-shadow: 2px 2px 5px #000;
+            
+        }&:hover{
+            box-shadow: 2px 2px 5px #ffffff;
+            transform: translate(3px, 3px) scale(.99);
+        }
+    }
+    &:hover{
+        box-shadow: 2px 2px 5px #000;
+    }
+}
