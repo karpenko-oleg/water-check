@@ -6,6 +6,7 @@
     font-size: 20px;
     line-height: 144%;
     margin-bottom: 40px;
+    
 }
 .amenities__grid{
     display: grid;
@@ -13,4 +14,11 @@
     column-gap: 15px;
     row-gap: 15px;
     justify-items: center;
+    @media (max-width:1300px){
+        grid-template-columns: 1fr 1fr;
+    }
+    @media (max-width:840px){
+        grid-template-columns: 1fr;
+    }
 }
+

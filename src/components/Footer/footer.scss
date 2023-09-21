@@ -39,6 +39,10 @@
                 opacity: .7;
             }
         }
+        @media (max-width:851px){
+            flex-direction: column;
+            row-gap: 20px;
+        }
     }
     .footer__bottom{
         margin: 30px 0;
@@ -63,6 +67,10 @@
                     scale: 1.1;
                 }
             }
+        }
+        @media (max-width:851px){
+            flex-direction: column-reverse;
+            row-gap: 20px;
         }
     }
 }

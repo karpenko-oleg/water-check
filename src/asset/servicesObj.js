@@ -1,102 +1,108 @@
-[
+
+import img1 from "../asset/mainImg/services/item.jpg"
+
+
+const servicesObj =[
     {
         "id": "1",
         "name": "Поверка теплосчетчиков",
-        "img": "./img/main/services/item.jpg"
+        "img": img1
     },
     {
         "id": "2",
         "name": "Поверка счетчиков воды",
-        "img": "./img/main/services/item.jpg"
+        "img": img1
     },
     {
         "id": "3",
         "name": "Установка счетчиков воды",
-        "img": "./img/main/services/item.jpg"
+        "img": img1
     },
     {
         "id": "4",
         "name": "Замена счетчиков воды",
-        "img": "./img/main/services/item.jpg"
+        "img": img1
     },
     {
         "id": "5",
         "name": "Замена счетчиков тепла",
-        "img": "./img/main/services/item.jpg"
+        "img": img1
     },
     {
         "id": "6",
         "name": "Замена батарейки в теплосчетчике",
-        "img": "./img/main/services/item.jpg"
+        "img": img1
     },
     {
         "id": "7",
         "name": "Поверка расходомеров",
-        "img": "./img/main/services/item.jpg"
+        "img": img1
     },
     {
         "id": "8",
         "name": "Поверка тепловычислителей",
-        "img": "./img/main/services/item.jpg"
+        "img": img1
     },
     {
         "id": "9",
         "name": "Давление, вакумные измерения",
-        "img": "./img/main/services/item.jpg"
+        "img": img1
     },
     {
         "id": "10",
         "name": "Поверка манометров",
-        "img": "./img/main/services/item.jpg"
+        "img": img1
     },
     {
         "id": "11",
         "name": "Поверка вакуумметров",
-        "img": "./img/main/services/item.jpg"
+        "img": img1
     },
     {
         "id": "12",
         "name": "Поверка мановакуумметров",
-        "img": "./img/main/services/item.jpg"
+        "img": img1
     },
     {
         "id": "13",
         "name": "Поверка преобразователей",
-        "img": "./img/main/services/item.jpg"
+        "img": img1
     },
     {
         "id": "14",
         "name": "Поверка измерителей давления",
-        "img": "./img/main/services/item.jpg"
+        "img": img1
     },
     {
         "id": "15",
         "name": "Теплофизические и температурные измерения",
-        "img": "./img/main/services/item.jpg"
+        "img": img1
     },
     {
         "id": "16",
         "name": "Поверка термометров",
-        "img": "./img/main/services/item.jpg"
+        "img": img1
     },
     {
         "id": "17",
         "name": "Поверка термообразователей сопротивления",
-        "img": "./img/main/services/item.jpg"
+        "img": img1
     },
     {
         "id": "18",
         "name": "Поверка счетчиков на холодное водоснабжение",
-        "img": "./img/main/services/item.jpg"
+        "img": img1
     },
     {
         "id": "19",
         "name": "Поверка счетчиков горячей воды",
-        "img": "./img/main/services/item.jpg"
+        "img": img1
     },
     {
         "id": "20",
         "name": "Поверка универсальных счетчиков",
-        "img": "./img/main/services/item.jpg"
+        "img": img1
     }
-]
+];
+
+export {servicesObj};

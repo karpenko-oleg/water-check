@@ -102,6 +102,7 @@ body{
     max-width: 1300px;
     margin: 0 auto;
     height: 100%;
+    padding: 10px;
 }
 // Стили для кнопок button__action
 .button__action{
@@ -120,7 +121,9 @@ body{
     font-size: 40px;
     font-weight: 600;
     font-family: 'Jost';
-    margin: 20px 0;
+    margin: 90px 0 20px;
     text-align: center;
+    @media (max-width:420px){
+        font-size: 30px;
+    }
 }
-

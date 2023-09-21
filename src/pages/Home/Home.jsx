@@ -1,16 +1,32 @@
 // Главная страница сайта
 
-import "./home.scss"
+import "./home.scss";
 
 // Компоненты
 import ServicesItem from "../../components/Services/ServicesItem";
 import SwiperReviews from "../../components/SwiperReviews/SwiperReviews";
+import SwiperDocuments from "../../components/SwiperDocuments/SwiperDocuments";
+import Application from "../../components/Application/Application";
+import Permission from "../../components/Permission/Permission";
 // json файл
-import servicesObj from "../../asset/servicesObj.json";
+// import servicesObj from "../../asset/servicesObj.json";
 import reviewsObj from "../../asset/reviewsObj.json";
+// объект используемый для вывода услуг
+import {servicesObj} from "../../asset/servicesObj.js"
+import {swiperDocList} from "../../asset/SwiperDocObj.js"
+
+
+// Используемы картинки
+import imgBgPrimary from "../../asset/mainImg/bg-main.gif"
+
+
+
+
 
 
 function Home() {
+  
+  
     return (
       <>
       <main>
@@ -19,14 +35,18 @@ function Home() {
                 <h1>Поверка счётчиков воды в г.Ульяновск</h1>
                 <h2>Поверка общедомовых приборов учёта воды и тепла!</h2>
                 <div className="primary__text__button">
-                  <a className="primary__text__button_btn1 button__action" href="">Заказать</a>
-                  <a className="primary__text__button_btn2 button__action" href="">Как пройти поверку</a>
+                  <a className="primary__text__button_btn1 button__action" href="/#">Заказать</a>
+                  <a className="primary__text__button_btn2 button__action" href="/#">Как пройти поверку</a>
                 </div>
             </div>
             <div className="primary__images">
                 <span></span>
-                <img src="./img/main/bg-main.gif" alt="" />
+                <img src={imgBgPrimary} alt="photo" />
             </div>
+        </section>
+        
+        <section className="Application">
+          <Application/>
         </section>
         <section className="services">
           <h2 className="body__title">Наши услуги</h2>
@@ -34,31 +54,13 @@ function Home() {
             <ServicesItem servicesObj={servicesObj}/>
           </div>
         </section>
-        <section className="documents">
-            <h2 className="body__title">Наши документы</h2>
-            <div className="documents__images">
-              <h6><img src="./img/main/documents/item.jpg" alt="" /></h6>
-              <h6><img src="./img/main/documents/item.jpg" alt="" /></h6>
-              <h6><img src="./img/main/documents/item.jpg" alt="" /></h6>
-            </div>
-            <a className="documents__btn button__action" href="">Заказать звонок</a>
+        <section className="permission">
+          <Permission/>
         </section>
-        <section className="getDock">
-          <h2 className="body__title">Какие документы Вы получаете</h2>
-          <div className="getDock__info">
-            <div className="getDock__info__check">
-              <h4>После поверки</h4>
-              <h6>Акт выполненных работ</h6>
-              <h6>Договор на оказание услуг</h6>
-              <h6>Свидетельство о поверке</h6>
-            </div>
-            <div className="getDock__info__replacement">
-              <h4>При замене счетчика</h4>
-              <h6>Акт ввода в эксплуатацию</h6>
-              <h6>Технический паспорт</h6>
-              <h6>Гарантия на оборудование</h6>
-            </div>
-          </div>
+        <section className="documents">
+            <h2 className="body__title">Предоставляемые документы</h2>
+            <SwiperDocuments swiperDocList = {swiperDocList}/>
+            <a className="documents__btn button__action" href="/#">Заказать звонок</a>
         </section>
         <section className="reviews">
           <h2 className="body__title">Отзывы о нашей работе</h2>
@@ -87,6 +89,9 @@ function Home() {
           <p>
           Обращаясь к нам, Вы можете рассчитывать на быстрое решение проблем с поверкой счетчиков в Ульяновске так как мы ценим Ваше время. За счет использование современного метрологического оборудования исследование водомеров проходит менее чем за полчаса. При этом используется минимальный объем воды. В случае выявления погрешности наш сотрудник может сразу выполнить замену прибора, что позволит Вам сэкономить не только время, но и средства, так как в этом случае поверка выполняется бесплатно.
           </p>
+        </section>
+        <section className="Application">
+          <Application/>
         </section>
       </main>
       </>

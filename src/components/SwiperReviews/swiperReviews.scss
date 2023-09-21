@@ -22,5 +22,8 @@
         p{
             line-height: 144%;
         }
+        @media (max-width:410px){
+            width: 100%;
+        }
     }
 }

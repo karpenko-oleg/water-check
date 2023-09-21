@@ -3,7 +3,7 @@
 
 // Компоненты
 import ServicesItem from "../../components/Services/ServicesItem";
-import servicesObj from "../../asset/servicesObj.json";
+import {servicesObj} from "../../asset/servicesObj.js";
 import "./amenities.scss"
 
 function Amenities() {
