@@ -1,13 +1,30 @@
 {
   "files": {
-    "main.css": "/water-check/static/css/main.1e66a24d.css",
-    "main.js": "/water-check/static/js/main.a6f33bb6.js",
+    "main.css": "/water-check/static/css/main.a21068cc.css",
+    "main.js": "/water-check/static/js/main.595795c6.js",
+    "static/media/bg-main.gif": "/water-check/static/media/bg-main.5c8ffa87472f7e155b4c.gif",
+    "static/media/item.jpg": "/water-check/static/media/item.8d245cd3a32fad0b6675.jpg",
+    "static/media/img-title.png": "/water-check/static/media/img-title.f88186f870156da5c34c.png",
+    "static/media/permitting-doc-1.jpg": "/water-check/static/media/permitting-doc-1.1c83735efac49d840c5f.jpg",
+    "static/media/logo.png": "/water-check/static/media/logo.d4ce8ce3479edd24d7eb.png",
+    "static/media/phone_call.svg": "/water-check/static/media/phone_call.9b91b6c7f23e400cbec9814efc735a02.svg",
+    "static/media/counterWater.svg": "/water-check/static/media/counterWater.af833cd2bb63c70f15367fc26750ef42.svg",
+    "static/media/whatsapp.svg": "/water-check/static/media/whatsapp.126232af4b23567fe94d4dbe27622610.svg",
+    "static/media/time_work.svg": "/water-check/static/media/time_work.8f4d23c61b9bbdf4c6041aee82e39acc.svg",
+    "static/media/gmail.svg": "/water-check/static/media/gmail.9076b8afb9c3112b5ffc136201177376.svg",
+    "static/media/vkontakte.svg": "/water-check/static/media/vkontakte.81af952164891b4e413b6da96c655b3c.svg",
+    "static/media/arrow.svg": "/water-check/static/media/arrow.f8130527a1d4f62e0a6d.svg",
+    "static/media/phone.svg": "/water-check/static/media/phone.d576c9e71e16c9ed25ecfb717f68b129.svg",
+    "static/media/location_pin.svg": "/water-check/static/media/location_pin.d8841a64a94f1147aea91aedbad26bd8.svg",
+    "static/media/telegram.svg": "/water-check/static/media/telegram.40e5e52802254cf2306dfeba101c5eea.svg",
+    "static/media/user.svg": "/water-check/static/media/user.e9a6ef03364242648a04f50e791923aa.svg",
     "index.html": "/water-check/index.html",
-    "main.1e66a24d.css.map": "/water-check/static/css/main.1e66a24d.css.map",
-    "main.a6f33bb6.js.map": "/water-check/static/js/main.a6f33bb6.js.map"
+    "static/media/menu_burger.svg": "/water-check/static/media/menu_burger.775e63223e2107f925cce51586096dbc.svg",
+    "main.a21068cc.css.map": "/water-check/static/css/main.a21068cc.css.map",
+    "main.595795c6.js.map": "/water-check/static/js/main.595795c6.js.map"
   },
   "entrypoints": [
-    "static/css/main.1e66a24d.css",
-    "static/js/main.a6f33bb6.js"
+    "static/css/main.a21068cc.css",
+    "static/js/main.595795c6.js"
   ]
 }
