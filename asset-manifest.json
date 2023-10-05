@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/water-check/static/css/main.21a323ee.css",
-    "main.js": "/water-check/static/js/main.05458758.js",
+    "main.js": "/water-check/static/js/main.31ed3869.js",
     "static/media/item_3.jpg": "/water-check/static/media/item_3.f5d67c9e4cd8e9209d79.jpg",
     "static/media/Аккредитация.png": "/water-check/static/media/Аккредитация.a226cd533e204020cdb0.png",
     "static/media/bg-main.gif": "/water-check/static/media/bg-main.5c8ffa87472f7e155b4c.gif",
@@ -16,9 +16,9 @@
     "static/media/протокол поверки.png": "/water-check/static/media/протокол поверки.e0bf01c4a3f0a96acb5e.png",
     "static/media/img-title.png": "/water-check/static/media/img-title.f88186f870156da5c34c.png",
     "static/media/карточка аккредитованого лица.png": "/water-check/static/media/карточка аккредитованого лица.56e8d850d135b65fd9fc.png",
-    "static/media/item_5.jpeg": "/water-check/static/media/item_5.39a7da5626898a10e818.jpeg",
     "static/media/logo.png": "/water-check/static/media/logo.d4ce8ce3479edd24d7eb.png",
     "static/media/item_8.jpg": "/water-check/static/media/item_8.02631d507ecbf90ea5b9.jpg",
+    "static/media/item_5.jpeg": "/water-check/static/media/item_5.fbb8e9d6dc99034309ed.jpeg",
     "static/media/item_2.jpg": "/water-check/static/media/item_2.b3f7205e014139f2f9e8.jpg",
     "static/media/checking.png": "/water-check/static/media/checking.8a7a00e886b547d68529.png",
     "static/media/changing.png": "/water-check/static/media/changing.2e49686875cecb23c9b8.png",
@@ -39,13 +39,13 @@
     "static/media/location_pin.svg": "/water-check/static/media/location_pin.d8841a64a94f1147aea91aedbad26bd8.svg",
     "static/media/telegram.svg": "/water-check/static/media/telegram.40e5e52802254cf2306dfeba101c5eea.svg",
     "static/media/user.svg": "/water-check/static/media/user.e9a6ef03364242648a04f50e791923aa.svg",
-    "static/media/search.svg": "/water-check/static/media/search.f88659ae36d6f2d0383d1a431bc8a96e.svg",
     "index.html": "/water-check/index.html",
+    "static/media/search.svg": "/water-check/static/media/search.f88659ae36d6f2d0383d1a431bc8a96e.svg",
     "main.21a323ee.css.map": "/water-check/static/css/main.21a323ee.css.map",
-    "main.05458758.js.map": "/water-check/static/js/main.05458758.js.map"
+    "main.31ed3869.js.map": "/water-check/static/js/main.31ed3869.js.map"
   },
   "entrypoints": [
     "static/css/main.21a323ee.css",
-    "static/js/main.05458758.js"
+    "static/js/main.31ed3869.js"
   ]
 }
