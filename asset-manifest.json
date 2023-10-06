@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/water-check/static/css/main.21a323ee.css",
-    "main.js": "/water-check/static/js/main.31ed3869.js",
+    "main.js": "/water-check/static/js/main.f2f437a4.js",
     "static/media/item_3.jpg": "/water-check/static/media/item_3.f5d67c9e4cd8e9209d79.jpg",
     "static/media/Аккредитация.png": "/water-check/static/media/Аккредитация.a226cd533e204020cdb0.png",
     "static/media/bg-main.gif": "/water-check/static/media/bg-main.5c8ffa87472f7e155b4c.gif",
@@ -42,10 +42,10 @@
     "index.html": "/water-check/index.html",
     "static/media/search.svg": "/water-check/static/media/search.f88659ae36d6f2d0383d1a431bc8a96e.svg",
     "main.21a323ee.css.map": "/water-check/static/css/main.21a323ee.css.map",
-    "main.31ed3869.js.map": "/water-check/static/js/main.31ed3869.js.map"
+    "main.f2f437a4.js.map": "/water-check/static/js/main.f2f437a4.js.map"
   },
   "entrypoints": [
     "static/css/main.21a323ee.css",
-    "static/js/main.31ed3869.js"
+    "static/js/main.f2f437a4.js"
   ]
 }
